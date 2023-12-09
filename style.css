@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #E5E7EB;
+}
+
+.container-principal {
+  height: 100vh;
+  background-image: url(image/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-one {
+  width: 350px;
+  height: 270px;
+  background-color: #212936;
+  border-radius: 10px;
+  border: 1px solid #4D5562;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.title {
+  color: #E5E7EB;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #A1A1A9;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+
+.entrada {
+  background-color: #212936;
+  color: #A1A1A9;
+  border: 2px solid #4D5562;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+} 
+
+::-webkit-input-placeholder{
+  color: #394150;
+  font-weight: bold;
+}
+
+.button {
+  align-self: center;
+  width: 40%;
+  height: 40px;
+  background: linear-gradient(to top, #6731d3, #825ced);
+  border: 0;
+  border-radius: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-two {
+  width: 350px;
+  height: 270px;
+  background-color: #212936;
+  border-radius: 10px;
+  border: 1px solid #4D5562;
+  display: none;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #4D5562;
+  margin-top: 7px;
+  margin-bottom:7px;
+  padding: 0 10px;
+  background-color: #394050;
+  color: #9f9fa7;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.card-three {
+  width: 350px;
+  height: 270px;
+  background-color: #212936;
+  border-radius: 10px;
+  border: 1px solid #4D5562;
+  display: none;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.dados {
+  color: #9a9ba3;
+}
+
+ul li {
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.marking {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  /*background-color: #342d61;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.etapa {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #733ee4;
+}
