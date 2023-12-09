@@ -1,2 +1,2 @@
 # formulario-de-valida-o
-Formulário de Validação criado com HTML, CSS e JavaScript
+Formulário de Validação criado com HTML, CSS e JavaScript - Em desenvolvimento ...
