@@ -20,8 +20,8 @@ body {
 }
 
 .card-one {
-  width: 350px;
-  height: 270px;
+  width: 28%;
+  height: 45%;
   background-color: #212936;
   border-radius: 10px;
   border: 1px solid #4D5562;
@@ -75,8 +75,8 @@ label {
 }
 
 .card-two {
-  width: 350px;
-  height: 270px;
+  width: 28%;
+  height: 45%;
   background-color: #212936;
   border-radius: 10px;
   border: 1px solid #4D5562;
@@ -112,8 +112,8 @@ label {
 }
 
 .card-three {
-  width: 350px;
-  height: 270px;
+  width: 28%;
+  height: 45%;
   background-color: #212936;
   border-radius: 10px;
   border: 1px solid #4D5562;
@@ -152,8 +152,8 @@ ul li {
 }
 
 .card-four {
-  width: 350px;
-  height: 270px;
+  width: 28%;
+  height: 45%;
   background-color: #212936;
   border-radius: 10px;
   border: 1px solid #4D5562;
@@ -190,4 +190,42 @@ ul li {
   height: 8px;
   border-radius: 50%;
   background-color: #733ee4;
+}
+
+@media (max-width: 800px) {
+  .card-one {
+    width: 50%;
+    height: 60%;
+  }
+  .card-two {
+    width: 50%;
+    height: 60%;
+  }
+  .card-three {
+    width: 50%;
+    height: 60%;
+  }
+  .card-four {
+    width: 50%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .card-one {
+    width: 70%;
+    height: 50%;
+  }
+  .card-two {
+    width: 70%;
+    height: 50%;
+  }
+  .card-three {
+    width: 70%;
+    height: 50%;
+  }
+  .card-four {
+    width: 70%;
+    height: 50%;
+  }
 }
