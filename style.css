@@ -92,11 +92,11 @@ label {
 }
 
 .option {
-  height: 45px;
+  height: 50px;
   border-radius: 10px;
   border: 1px solid #4D5562;
-  margin-top: 7px;
-  margin-bottom:7px;
+  margin-top: 6px;
+  margin-bottom:6px;
   padding: 0 10px;
   background-color: #394050;
   color: #9f9fa7;
@@ -104,6 +104,11 @@ label {
   display: flex;
   justify-content: flex-start;
   cursor: pointer;
+}
+
+.option.active {
+  background-color: #652cd1; /* Aqui você pode colocar a cor desejada ao clicar */
+  color: #e3e7ea; /* Cor do texto quando 'active' */
 }
 
 .card-three {
@@ -120,11 +125,43 @@ label {
 
 .dados {
   color: #9a9ba3;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.resumo-nome {
+  display: flex;
+  flex-direction: row;
+}
+
+.resumo-email {
+  display: flex;
+  flex-direction: row;
 }
 
 ul li {
   margin-top: 5px;
   margin-left: 25px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-four {
+  width: 350px;
+  height: 270px;
+  background-color: #212936;
+  border-radius: 10px;
+  border: 1px solid #4D5562;
+  display: none;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .marking {
@@ -136,6 +173,10 @@ ul li {
   justify-content: center;
   align-items: center;
   margin: 5px;
+}
+
+.marking:first-child {
+  background-color: #342d61;
 }
 
 .circle {

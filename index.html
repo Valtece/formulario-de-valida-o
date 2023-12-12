@@ -13,41 +13,48 @@
   <div class="container-principal">
 
     <div class="card-one">
-      <span class="title"> Cadastro </span>
+      <span class="title"> Formulário </span>
       <form>
         <label> Nome </label>
         <input class="entrada" id="inputNome" type="text" placeholder="Digite seu nome" name="nome"/>
         <label> Email </label>
         <input class="entrada " id="inputE-mail" type="text" placeholder="Digite seu email" name="email"/>
       </form>
-      <button class="button" onclick="salvarDados()"> Continuar </button>
+      <button  class="button" id="continuarButton"  onclick="salvarDados()" > Continuar </button>
     </div>
 
     <div class="card-two">
-      <span class="title"> Which topics you are interested in? </span>
+      <span class="title"> Em quais tópicos você está interessado? </span>
       <div class="options">
         <input class="option" type="button" value="Software Development"/>
         <input class="option" type="button" value="User Experience"/>
         <input class="option" type="button" value="Graphic Design"/>
       </div>
-      <button class="button" onclick="salvarDados"> Continuar </button>
+      <button class="button"> Continuar </button>
     </div>
     
     <div class="card-three">
       <span class="title"> Resumo </span>
       <div>
-        <p> <span class="dados"> Nome:</span> Teste Teste Teste </p>
-        <p> <span class="dados"> Email:</span> teste@gmail.com </p>
+        <div class="resumo-nome">
+          <span class="dados"> Nome: &nbsp; </span> 
+          <p id="visualizaçãoNome"> </p>
+        </div>
+        <div class="resumo-email">
+          <span class="dados"> Email: &nbsp; </span> 
+          <p id="visualizaçãoEmail"> </p>
+        </div>
       </div>
       <div>
         <p><span class="dados"> Topicos:</span> </p>
-        <ul>
-          <li> Teste Teste </li>
-          <li> Teste Teste</li>
+        <ul id="opcoesSelecionadas" >
         </ul>
       </div>
-      <button class="button"> Confirmar </button>
+      <button class="button" id="enviar"> Confirmar </button>
+    </div>
 
+    <div class="card-four">
+      <span> Feito! Formulário enviado com Sucesso!</span>
     </div>
 
     <div class="circle">
