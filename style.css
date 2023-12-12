@@ -213,19 +213,19 @@ ul li {
 
 @media (max-width: 450px) {
   .card-one {
-    width: 70%;
-    height: 50%;
+    width: 75%;
+    height: 35%;
   }
   .card-two {
-    width: 70%;
-    height: 50%;
+    width: 75%;
+    height: 35%;
   }
   .card-three {
-    width: 70%;
-    height: 50%;
+    width: 75%;
+    height:35%;
   }
   .card-four {
-    width: 70%;
-    height: 50%;
+    width: 75%;
+    height: 35%;
   }
 }
