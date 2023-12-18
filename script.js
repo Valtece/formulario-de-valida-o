@@ -2,8 +2,12 @@ function salvarDados() {
   var inputName = document.getElementById("inputNome").value;
   var inputEmail = document.getElementById("inputE-mail").value;
 
+  var emailFormat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
   if (inputName === '' || inputEmail === '') {
     alert('Por favor, preencha todos os campos antes de continuar.')
+  } else if (!emailFormat.test(inputEmail)) {
+    alert('Por favor, insira um e-mail válido.');
   } else {
     visualizaçãoNome.textContent = inputName ;
     visualizaçãoEmail.textContent = inputEmail ;
@@ -12,6 +16,7 @@ function salvarDados() {
     document.querySelector('.card-two').style.display = 'flex';
 
     document.querySelectorAll('.marking')[1].style.backgroundColor = '#342d61';
+    document.querySelectorAll('.two')[0].style.backgroundColor = '#733ee4';
   }
 }
 
@@ -35,6 +40,7 @@ opcoesSelecionadas.forEach(opcao => {
     document.querySelector('.card-three').style.display = 'flex';
 
     document.querySelectorAll('.marking')[2].style.backgroundColor = '#342d61';
+    document.querySelectorAll('.three')[0].style.backgroundColor = '#733ee4';
   }
 
 })

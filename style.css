@@ -58,6 +58,12 @@ label {
   margin-bottom: 10px;
 } 
 
+.entrada:focus {
+  outline: none;
+  border-color: #733ee4;
+}
+
+
 ::-webkit-input-placeholder{
   color: #394150;
   font-weight: bold;
@@ -109,6 +115,7 @@ label {
 .option.active {
   background-color: #652cd1; /* Aqui você pode colocar a cor desejada ao clicar */
   color: #e3e7ea; /* Cor do texto quando 'active' */
+  border: 0;
 }
 
 .card-three {
@@ -189,8 +196,19 @@ ul li {
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  background-color: #a89dbe;
+}
+
+.one {
   background-color: #733ee4;
 }
+
+.conclusao {
+  text-align: center;
+  font-size: 20px;
+}
+
+
 
 @media (max-width: 800px) {
   .card-one {
